@@ -1,0 +1,6 @@
+{
+  "uuid": "%uuid%",
+  "name": "Server-IP beim Joinen",
+  "description": "Mit diesem Addon siehst du immer auf welchen Server du dich verbunden hast.",
+  "mainClass": "de.autovermietung.addon.Addon"
+}

@@ -1,0 +1,443 @@
+[15:53:55] [main/INFO]: Extra: []
+[15:53:55] [main/INFO]: Found and added coremod: net.labymod.core.asm.LabyModCoreMod
+[15:53:55] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Lukas/.gradle/caches/minecraft/assets, --assetIndex, 1.8, --accessToken{REDACTED}, --version, 1.8.9, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:53:55] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:53:55] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:53:55] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:53:55] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:53:55] [main/INFO]: Forge Mod Loader version 11.15.1.1855 for Minecraft 1.8.9 loading
+[15:53:55] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_251\jre
+[15:53:55] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[15:53:55] [main/INFO]: Found a command line coremod : net.labymod.core.asm.LabyModCoreMod
+[15:53:56] [main/INFO]: [Debug] Started debug logging
+[15:53:56] [main/WARN]: The coremod net.labymod.core.asm.LabyModCoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:53:56] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:53:56] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[15:53:56] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[15:53:56] [main/INFO]: Injecting location in coremod net.labymod.core.asm.LabyModCoreMod
+[15:53:56] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:53:56] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:53:56] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:53:56] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:53:56] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:53:56] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:53:57] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[15:53:58] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[15:53:58] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:53:58] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:53:58] [main/INFO]: [Debug] [ADDON] Given addon resources: addon.json
+[15:53:58] [main/INFO]: [Debug] [ADDON] Loading resource addon.json: true
+[15:53:58] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:53:59] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:53:59] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:53:59] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:53:59] [main/INFO]: [Debug] [ASM] Transforming net.minecraft.client.main.Main...
+[15:53:59] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:53:59] [main/INFO]: [Debug] [ASM] Transforming net.minecraft.client.Minecraft...
+[15:54:00] [main/INFO]: [Debug] [ASM] Transforming net.minecraft.client.gui.GuiScreen...
+[15:54:00] [main/INFO]: [Debug] [ASM] Transforming net.minecraft.client.entity.EntityPlayerSP...
+[15:54:00] [main/INFO]: [Debug] [ASM] Transforming net.minecraft.entity.player.EntityPlayer...
+[15:54:00] [main/INFO]: [Debug] [ASM] Transforming net.minecraft.entity.EntityLivingBase...
+[15:54:00] [main/INFO]: [Debug] [ASM] Transforming net.minecraft.client.gui.inventory.GuiContainer...
+[15:54:01] [Client thread/INFO]: [Debug] [ASM] Transforming net.minecraft.item.Item...
+[15:54:04] [Client thread/INFO]: [Debug] [ASM] Transforming net.minecraft.item.ItemStack...
+[15:54:05] [Client thread/INFO]: LWJGL Version: 2.9.4
+[15:54:06] [Client thread/WARN]: =============================================================
+[15:54:06] [Client thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[15:54:06] [Client thread/WARN]: Offendor: com/sun/jna/Native.main([Ljava/lang/String;)V
+[15:54:06] [Client thread/WARN]: Use FMLCommonHandler.exitJava instead
+[15:54:06] [Client thread/WARN]: =============================================================
+[15:54:06] [Client thread/INFO]: ---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 15.10.20 15:54
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_251, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 424219240 bytes (404 MB) / 668991488 bytes (638 MB) up to 3780640768 bytes (3605 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+LabyModCoreMod (lm_api_mc1.8.9.jar)
+  net.labymod.core.asm.LabyModTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 443.18' Renderer: 'GeForce MX250/PCIe/SSE2'
+[15:54:07] [Client thread/INFO]: MinecraftForge v11.15.1.1855 Initialized
+[15:54:07] [Client thread/INFO]: Replaced 229 ore recipies
+[15:54:07] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[15:54:07] [Client thread/INFO]: Searching D:\LabyMod Addon\run\mods for mods
+[15:54:10] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[15:54:10] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, labymod] at CLIENT
+[15:54:10] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, labymod] at SERVER
+[15:54:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:LabyMod
+[15:54:11] [Client thread/INFO]: Processing ObjectHolder annotations
+[15:54:11] [Client thread/INFO]: Found 384 ObjectHolder annotations
+[15:54:11] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[15:54:11] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[15:54:11] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[15:54:11] [Client thread/INFO]: Applying holder lookups
+[15:54:11] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[15:54:11] [Client thread/INFO]: Holder lookups applied
+[15:54:11] [Client thread/INFO]: Injecting itemstacks
+[15:54:11] [Client thread/INFO]: Itemstack injection complete
+[15:54:12] [Forge Version Check/INFO]: [Forge] Found status: OUTDATED Target: 11.15.1.2318
+[15:54:12] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:54:12] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[15:54:12] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:54:12] [Thread-9/INFO]: OpenAL initialized.
+[15:54:12] [Sound Library Loader/INFO]: Sound engine started
+[15:54:23] [Client thread/INFO]: Max texture size: 16384
+[15:54:23] [Client thread/INFO]: Created: 16x16 textures-atlas
+[15:54:24] [Client thread/INFO]: [Debug] [ASM] Transforming net.minecraft.client.model.ModelBiped...
+[15:54:24] [Client thread/INFO]: [Debug] [ASM] Transforming net.minecraft.client.renderer.ItemRenderer...
+[15:54:24] [Client thread/INFO]: [Debug] [ASM] Transforming net.minecraft.client.renderer.EntityRenderer...
+[15:54:24] [Client thread/INFO]: [Debug] [ASM] Transforming net.minecraft.client.renderer.RenderGlobal...
+[15:54:25] [Client thread/INFO]: [Debug] [ASM] Transforming net.minecraft.client.gui.ScaledResolution...
+[15:54:25] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Loaded LabyMod-3.json!
+[15:54:25] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Switched profile to default
+[15:54:25] [Client thread/INFO]: [Debug] [LANGUAGE] en_US is not loaded! Trying to load it..
+[15:54:25] [Client thread/INFO]: [Debug] [LANGUAGE] Using language en_US now.
+[15:54:26] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Loaded modules.json!
+[15:54:26] [Client thread/INFO]: [Debug] [LANGUAGE] Detected Minecraft language: en_US
+[15:54:26] [Client thread/INFO]: [Debug] [LANGUAGE] Using language en_US now.
+[15:54:26] [Client thread/INFO]: [Debug] [USER_MANAGER] Registered 36 cosmetics!
+[15:54:26] [pool-7-thread-2/INFO]: [Debug] [USER_MANAGER] Load whitelist..
+[15:54:26] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Loaded autotext.json!
+[15:54:26] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Loaded filters.json!
+[15:54:26] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Loaded shortcuts.json!
+[15:54:26] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Loaded playermenu.json!
+[15:54:26] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Loaded tags.json!
+[15:54:26] [Client thread/INFO]: [Debug] [ASM] Transforming net.minecraft.client.gui.GuiMultiplayer...
+[15:54:26] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Loaded servers.json!
+[15:54:27] [pool-7-thread-2/INFO]: [Debug] [USER_MANAGER] Loaded 183676 whitelisted users.
+[15:54:27] [pool-7-thread-2/INFO]: [Debug] [USER_MANAGER] Successfully loaded all userdata
+[15:54:27] [Thread-12/INFO]: [Debug] [EMOTE] Loaded 124 emotes!
+[15:54:27] [Client thread/INFO]: [Debug] [ADDON] Enabling and init addon Server-IP beim Joinen...
+[15:54:27] [Client thread/INFO]: [INFO] Addon 'Addon' wurde gestartet.
+[15:54:27] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Loaded Server-IP beim Joinen.json!
+[15:54:27] [Thread-16/INFO]: [Debug] [UPDATER] The latest LabyMod version is v3.6.13, you are currently using LabyMod version v3.6.6
+[15:54:27] [Thread-16/INFO]: [Debug] [UPDATER] You are outdated!
+[15:54:27] [Client thread/INFO]: [Debug] [ADDON] Successfull loaded addon Server-IP beim Joinen! (took 98 ms)
+[15:54:27] [Thread-16/INFO]: [Debug] [UPDATER] Downloaded latest Updater http://dl.labymod.net/latest/install/updater.jar
+[15:54:27] [Client thread/INFO]: [Debug] [DISCORD] Initialize discord rpc..
+[15:54:28] [Client thread/INFO]: [Debug] [DISCORD] Detected OS version: WIN_64
+[15:54:28] [Client thread/INFO]: [Debug] [DISCORD] Discord lib destination: C:\Program Files\Java\jdk1.8.0_251\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Users\Lukas\AppData\Local\Microsoft\WindowsApps;C:\Users\Lukas\AppData\Roaming\npm;C:\Users\Lukas\AppData\Local\atom\bin;.;C:\Users\Lukas\.gradle\caches\minecraft\net\minecraft\natives\1.8.9\discordRPC.dll
+[15:54:28] [Client thread/INFO]: [Debug] [DISCORD] Downloading latest discord library: http://dl.labymod.net/latest/install/discord/win_64.dll
+[15:54:28] [Thread-19/INFO]: [Debug] [DISCORD] Download latest discord library..
+[15:54:28] [Thread-19/ERROR]: catching
+java.io.FileNotFoundException: C:\Program Files\Java\jdk1.8.0_251\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Users\Lukas\AppData\Local\Microsoft\WindowsApps;C:\Users\Lukas\AppData\Roaming\npm;C:\Users\Lukas\AppData\Local\atom\bin;.;C:\Users\Lukas\.gradle\caches\minecraft\net\minecraft\natives\1.8.9\discordRPC.dll (Die Syntax für den Dateinamen, Verzeichnisnamen oder die Datenträgerbezeichnung ist falsch)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_251]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_251]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_251]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_251]
+	at net.labymod.discordapp.api.DiscordLibraryProvider.run(DiscordLibraryProvider.java:70) [DiscordLibraryProvider.class:?]
+[15:54:28] [Thread-19/INFO]: [Debug] [DISCORD] No Discord library found!
+[15:54:28] [Client thread/INFO]: Injecting itemstacks
+[15:54:28] [Client thread/INFO]: Itemstack injection complete
+[15:54:28] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[15:54:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:LabyMod
+[15:54:28] [Client thread/INFO]: SoundSystem shutting down...
+[15:54:28] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:54:28] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:54:28] [Thread-20/INFO]: Initializing LWJGL OpenAL
+[15:54:28] [Thread-20/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:54:28] [Thread-20/INFO]: OpenAL initialized.
+[15:54:29] [Sound Library Loader/INFO]: Sound engine started
+[15:54:29] [Helper#0/INFO]: [Debug] [LABYMOD_CHAT] Connecting to mod.labymod.net:30336
+[15:54:29] [Chat#0/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 0 PacketHelloPing
+[15:54:29] [Chat#0/INFO]: [Debug] [LABYMOD_CHAT] [IN] 1 PacketHelloPong
+[15:54:29] [Chat#0/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 3 PacketLoginData
+[15:54:29] [Chat#0/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 6 PacketLoginOptions
+[15:54:29] [Chat#0/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 9 PacketLoginVersion
+[15:54:29] [Chat#0/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 32 PacketAddonMessage
+[15:54:29] [Chat#0/INFO]: [Debug] [LABYMOD_CHAT] [IN] 10 PacketEncryptionRequest
+[15:54:30] [Chat#0/INFO]: [Debug] [LABYMOD_CHAT] Invalid session
+[15:54:30] [Helper#1/INFO]: [Debug] [LABYMOD_CHAT] Save chat log file for b04d78c5-604b-370c-97e9-acff5d35c648
+[15:54:30] [Helper#1/INFO]: [Debug] [LABYMOD_CHAT] Create new log file for b04d78c5-604b-370c-97e9-acff5d35c648
+[15:54:30] [Helper#1/INFO]: [Debug] [LABYMOD_CHAT] Saved 0 chats!
+[15:54:30] [Chat#0/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 60 PacketDisconnect
+[15:54:39] [Client thread/INFO]: Max texture size: 16384
+[15:54:40] [Client thread/INFO]: Created: 512x512 textures-atlas
+[15:54:41] [pool-11-thread-1/INFO]: [Debug] [GENERAL] Downloaded texture http://dl.labymod.net/advertisement/icons/twitter.png
+[15:54:41] [pool-11-thread-2/INFO]: [Debug] [GENERAL] Downloaded texture http://dl.labymod.net/advertisement/icons/discord.png
+[15:54:41] [pool-11-thread-3/INFO]: [Debug] [GENERAL] Downloaded texture http://dl.labymod.net/advertisement/icons/shop.png
+[15:54:43] [Client thread/INFO]: [Debug] [ASM] Transforming net.minecraft.client.network.OldServerPinger...
+[15:54:43] [Client thread/INFO]: [Debug] [ASM] Transforming net.minecraft.client.gui.GuiSlot...
+[15:54:46] [Client thread/INFO]: [Debug] [LABYMOD_CHAT] Loaded 0 chats!
+[15:54:46] [Helper#0/INFO]: [Debug] [LABYMOD_CHAT] Connecting to mod.labymod.net:30336
+[15:54:46] [Client thread/INFO]: [Debug] [ACCOUNT_MANAGER] AccountManager: You are now playing with Autovermietung.
+[15:54:46] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 0 PacketHelloPing
+[15:54:46] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [IN] 1 PacketHelloPong
+[15:54:46] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 3 PacketLoginData
+[15:54:46] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 6 PacketLoginOptions
+[15:54:46] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 9 PacketLoginVersion
+[15:54:46] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 32 PacketAddonMessage
+[15:54:46] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [IN] 10 PacketEncryptionRequest
+[15:54:47] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 11 PacketEncryptionResponse
+[15:54:47] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [IN] 7 PacketLoginComplete
+[15:54:47] [Netty Client IO #0/INFO]: [Debug] [ASM] Transforming net.minecraft.util.MessageDeserializer...
+[15:54:47] [Netty Client IO #0/INFO]: [Debug] [ASM] Transforming net.minecraft.network.play.server.S21PacketChunkData...
+[15:54:47] [Netty Client IO #0/INFO]: [Debug] [ASM] Transforming net.minecraft.network.play.server.S26PacketMapChunkBulk...
+[15:54:49] [Client thread/INFO]: Connecting to fastpvp.de, 25565
+[15:54:49] [Client thread/INFO]: [Debug] [ASM] Transforming net.minecraft.client.gui.GuiDisconnected...
+[15:54:49] [Netty Client IO #1/INFO]: [Debug] [ASM] Transforming net.minecraft.client.network.NetHandlerPlayClient...
+[15:54:49] [Netty Client IO #1/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.S02PacketChat
+[15:54:49] [Netty Client IO #1/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.S47PacketPlayerListHeaderFooter
+[15:54:49] [Netty Client IO #1/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.S02PacketChat
+[15:54:49] [Netty Client IO #1/INFO]: Aborting client handshake "VANILLA"
+[15:54:49] [Netty Client IO #1/INFO]: [Netty Client IO #1] Client side vanilla connection established
+[15:54:49] [Client thread/INFO]: [Debug] [PLUGINMESSAGE] [IN] MC|Brand
+[15:54:49] [Client thread/INFO]: [Debug] [PLUGINMESSAGE] [OUT] [LMC] {"version":"3.6.6","ccp":{"enabled":true,"version":2},"shadow":{"enabled":true,"version":1},"addons":[{"uuid":"a931c101-bf1e-4d1a-aece-ccd0a2938a7f","name":"Server-IP beim Joinen"}],"mods":[]}
+[15:54:49] [Client thread/INFO]: [Debug] [PLUGINMESSAGE] [IN] MC|Brand
+[15:54:49] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 68 PacketPlayServerStatusUpdate
+[15:54:49] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Switched profile to default
+[15:54:49] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Loaded modules.json!
+[15:54:49] [Client thread/INFO]: [Debug] [MINECRAFT] Connected to server fastpvp.de
+[15:54:49] [pool-7-thread-3/INFO]: [Debug] [USER_MANAGER] Load user data of 8865cbc0-063c-4a7c-ae63-c27af886224c
+[15:54:50] [pool-7-thread-3/INFO]: [Debug] [USER_MANAGER] {"c":[{"i":0,"d":[1]}],"e":[61,189,138],"st":{"p":[4,5,6]},"g":[]}
+[15:54:50] [pool-7-thread-3/INFO]: [Debug] [USER_MANAGER] Loaded cosmetic 0 for client
+[15:54:50] [Client thread/INFO]: [CHAT] [Freunde] Es sind 0/1 deiner Freunde online.
+[15:54:50] [Client thread/INFO]: [CHAT]        
+[15:54:50] [Client thread/INFO]: [CHAT] [ServerIP] Du bist auf fastpvp.de gejoint.
+[15:54:50] [Client thread/INFO]: [CHAT]                                      
+[15:54:50] [Client thread/INFO]: [CHAT] ▃▅▉ Willkommen auf SkySlayer.DE ▉▅▃
+[15:54:50] [Client thread/INFO]: [CHAT] 
+[15:54:50] [Client thread/INFO]: [CHAT] ➥ Du kannst dir mit dem Befehl [/PLOT] ein Grundstück holen
+[15:54:50] [Client thread/INFO]: [CHAT] ➥ Unseren Teamspeak kannst du über [/TS] erreichen
+[15:54:50] [Client thread/INFO]: [CHAT] ➥ Zu unserem Forum gelangst du mit [/FORUM]
+[15:54:50] [Client thread/INFO]: [CHAT] ➥ Du kannst uns freiwillig über [/SPENDEN] unterstützen
+[15:54:50] [Client thread/INFO]: [CHAT] 
+[15:54:50] [Client thread/INFO]: [CHAT] ➥ Unsere Datenschutzrichtlinien findest du unter [/DSGVO]
+[15:54:50] [Client thread/INFO]: [CHAT] 
+[15:54:50] [pool-7-thread-4/INFO]: [Debug] [USER_MANAGER] Load user data of 4b9a3a10-9fd3-4bfd-b806-245006bf5fdc
+[15:54:50] [pool-7-thread-4/INFO]: [Debug] [USER_MANAGER] Parse error while loading CosmeticCapData: For input string: "7a9c8635-d64f-47ee-a373-5faceffc1915"
+[15:54:50] [pool-7-thread-5/INFO]: [Debug] [USER_MANAGER] Load user data of 018eb201-c8b4-4d0e-b203-c8741506219d
+[15:54:50] [pool-7-thread-5/INFO]: [Debug] [USER_MANAGER] Parse error while loading CosmeticCapData: For input string: "7a9c8635-d64f-47ee-a373-5faceffc1915"
+[15:54:51] [Client thread/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Load labymodcloak/4b9a3a10-9fd3-4bfd-b806-245006bf5fdc
+[15:54:51] [Client thread/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Load labymodkawaiimask/3b7492c6-4239-4e4b-9906-d510e722a96b
+[15:54:51] [Client thread/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Load labymodcloak/018eb201-c8b4-4d0e-b203-c8741506219d
+[15:54:51] [Client thread/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Load labymodwatches/affd3aeb-9f53-4d7b-a86a-38586f23f788
+[15:54:51] [Client thread/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Load labymodkawaiimask/c6aa01db-bd10-4948-9632-afe6bd0c3f3c
+[15:54:51] [Client thread/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Load labymodshoes/c525d592-d44f-4488-b0b9-7405f6ccc6b0
+[15:54:51] [pool-11-thread-4/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Downloaded texture http://dl.labymod.net/textures/../capes/4b9a3a10-9fd3-4bfd-b806-245006bf5fdc
+[15:54:51] [pool-11-thread-4/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Downloaded texture http://dl.labymod.net/textures/shoes/c525d592-d44f-4488-b0b9-7405f6ccc6b0
+[15:54:51] [pool-11-thread-5/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Downloaded texture http://dl.labymod.net/textures/kawaiimasks/3b7492c6-4239-4e4b-9906-d510e722a96b
+[15:54:51] [pool-11-thread-3/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Downloaded texture http://dl.labymod.net/textures/kawaiimasks/c6aa01db-bd10-4948-9632-afe6bd0c3f3c
+[15:54:51] [pool-11-thread-1/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Downloaded texture http://dl.labymod.net/textures/../capes/018eb201-c8b4-4d0e-b203-c8741506219d
+[15:54:51] [pool-11-thread-2/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Downloaded texture http://dl.labymod.net/textures/watches/affd3aeb-9f53-4d7b-a86a-38586f23f788
+[15:54:53] [Client thread/INFO]: [CHAT] ⚔ KNIGHT ⚔ × Emperor » wtf wer weiß das nicht
+[15:54:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[15:54:54] [Client thread/INFO]: [CHAT] [ServerIP] Du bist mit fastpvp.de verbuden.
+[15:54:55] [pool-7-thread-1/INFO]: [Debug] [USER_MANAGER] Load user data of 38795fb6-c423-4b07-9cab-14d6b823f356
+[15:54:55] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [IN] 4 PacketLoginFriend
+[15:54:55] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [IN] 5 PacketLoginRequest
+[15:54:55] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [IN] 24 PacketPlayFriendPlayingOn
+[15:54:55] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [IN] 23 PacketPlayFriendStatus
+[15:54:56] [Client thread/INFO]: [CHAT] ✗  PvP-GOD ✗ Kamillo2009 » du?
+[15:54:59] [Client thread/INFO]: [CHAT] »
+[15:54:59] [Client thread/INFO]: [CHAT] SkySlayer × JOINE AUF UNSEREN TEAMSPEAK > TS.SkySlayer.DE <
+[15:54:59] [Client thread/INFO]: [CHAT] »
+[15:54:59] [Client thread/INFO]: [CHAT] » Aktuelle Votes für die nächste Voteparty: 7/30 Votes.
+[15:55:00] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[15:55:00] [Client thread/INFO]: [CHAT] [ServerIP] Du bist mit fastpvp.de verbuden.
+[15:55:05] [Client thread/INFO]: Applying holder lookups
+[15:55:05] [Client thread/INFO]: Holder lookups applied
+[15:55:05] [Client thread/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Unloaded labymodcloak/4b9a3a10-9fd3-4bfd-b806-245006bf5fdc
+[15:55:05] [Client thread/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Unloaded labymodcloak/018eb201-c8b4-4d0e-b203-c8741506219d
+[15:55:05] [Client thread/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Unloaded 2 unused labymodcloak and 0 had no labymod textures! 0 labymodcloak left.
+[15:55:05] [Client thread/INFO]: [Debug] [COSMETIC_IMAGE_MANAGER] Unloaded 0 unused labymodbandana and 0 had no labymod textures! 0 labymodbandana left.
+[15:55:05] [Client thread/INFO]: [Debug] [MINECRAFT] Disconnected from server
+[15:55:05] [Chat#1/INFO]: [Debug] [LABYMOD_CHAT] [OUT] 68 PacketPlayServerStatusUpdate
+[15:55:10] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[15:55:10] [Server thread/INFO]: Generating keypair
+[15:55:10] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[15:55:10] [Server thread/INFO]: Applying holder lookups
+[15:55:10] [Server thread/INFO]: Holder lookups applied
+[15:55:10] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@3165f6b4)
+[15:55:10] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@3165f6b4)
+[15:55:10] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@3165f6b4)
+[15:55:10] [Server thread/INFO]: Preparing start region for level 0
+[15:55:11] [Server thread/INFO]: Changing view distance to 12, from 10
+[15:55:11] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[15:55:11] [Netty Server IO #1/INFO]: Client protocol version 2
+[15:55:11] [Netty Server IO #1/INFO]: Client attempting to join with 4 mods : labymod@3.6.6,FML@8.0.99.99,Forge@11.15.1.1855,mcp@9.19
+[15:55:11] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[15:55:11] [Server thread/INFO]: [Server thread] Server side modded connection established
+[15:55:11] [Server thread/INFO]: Autovermietung[local:E:7b706432] logged in with entity id 867 at (-116.64282197558116, 67.0, 200.5493461309415)
+[15:55:11] [Server thread/INFO]: Autovermietung joined the game
+[15:55:11] [Client thread/INFO]: [Debug] [PLUGINMESSAGE] [IN] MC|Brand
+[15:55:11] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Switched profile to default
+[15:55:11] [Client thread/INFO]: [Debug] [CONFIG_MANAGER] Loaded modules.json!
+[15:55:15] [Server thread/INFO]: Stopping server
+[15:55:15] [Server thread/INFO]: Saving players
+[15:55:15] [Server thread/INFO]: Saving worlds
+[15:55:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:55:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:55:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:55:15] [Server thread/INFO]: Unloading dimension 0
+[15:55:15] [Server thread/INFO]: Unloading dimension -1
+[15:55:15] [Server thread/INFO]: Unloading dimension 1
+[15:55:15] [Server thread/INFO]: Applying holder lookups
+[15:55:15] [Server thread/INFO]: Holder lookups applied
+[15:55:16] [Client thread/FATAL]: Reported exception thrown!
+net.minecraft.util.ReportedException: Updating screen events
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1774) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1080) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:380) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:116) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+Caused by: java.lang.NullPointerException
+	at de.autovermietung.addon.Addon$2.onSend(Addon.java:52) ~[Addon$2.class:?]
+	at net.labymod.ingamechat.GuiChatCustom.sendChatMessage(GuiChatCustom.java:353) ~[GuiChatCustom.class:?]
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:476) ~[GuiScreen.class:?]
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:131) ~[GuiChat.class:?]
+	at net.labymod.ingamechat.GuiChatCustom.keyTyped(GuiChatCustom.java:272) ~[GuiChatCustom.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:647) ~[GuiScreen.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:597) ~[GuiScreen.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1761) ~[Minecraft.class:?]
+	... 15 more
+[15:55:16] [Client thread/INFO]: ---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 15.10.20 15:55
+Description: Updating screen events
+
+java.lang.NullPointerException: Updating screen events
+	at de.autovermietung.addon.Addon$2.onSend(Addon.java:52)
+	at net.labymod.ingamechat.GuiChatCustom.sendChatMessage(GuiChatCustom.java:353)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:476)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:131)
+	at net.labymod.ingamechat.GuiChatCustom.keyTyped(GuiChatCustom.java:272)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:647)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:597)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1761)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1080)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:380)
+	at net.minecraft.client.main.Main.main(Main.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at de.autovermietung.addon.Addon$2.onSend(Addon.java:52)
+	at net.labymod.ingamechat.GuiChatCustom.sendChatMessage(GuiChatCustom.java:353)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:476)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:131)
+	at net.labymod.ingamechat.GuiChatCustom.keyTyped(GuiChatCustom.java:272)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:647)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:597)
+
+-- Affected screen --
+Details:
+	Screen name: net.labymod.ingamechat.GuiChatCustom
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Autovermietung'/867, l='MpServer', x=-116,64, y=67,00, z=200,55]]
+	Chunk stats: MultiplayerChunkCache: 490, 490
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: -192,00,64,00,256,00 - World: (-192,64,256), Chunk: (at 0,4,0 in -12,16; contains blocks -192,0,256 to -177,255,271), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 1574 game time, 1574 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 119 total; [EntitySheep['Sheep'/769, l='MpServer', x=-86,96, y=63,00, z=157,02], EntitySheep['Sheep'/770, l='MpServer', x=-85,19, y=64,00, z=158,88], EntityZombie['Zombie'/771, l='MpServer', x=-91,50, y=43,00, z=169,50], EntityCreeper['Creeper'/772, l='MpServer', x=-89,50, y=56,00, z=186,50], EntityCow['Cow'/773, l='MpServer', x=-86,41, y=67,00, z=192,34], EntitySkeleton['Skeleton'/774, l='MpServer', x=-85,91, y=30,00, z=209,59], EntityZombie['Zombie'/775, l='MpServer', x=-81,78, y=46,00, z=241,72], EntityZombie['Zombie'/776, l='MpServer', x=-80,50, y=33,00, z=270,94], EntityZombie['Zombie'/785, l='MpServer', x=-79,38, y=41,00, z=142,88], EntitySheep['Sheep'/786, l='MpServer', x=-81,75, y=64,00, z=157,69], EntitySheep['Sheep'/787, l='MpServer', x=-73,69, y=67,00, z=169,81], EntityCow['Cow'/788, l='MpServer', x=-77,00, y=65,00, z=183,09], EntityCow['Cow'/789, l='MpServer', x=-68,88, y=64,00, z=189,94], EntityItem['item.tile.torch'/790, l='MpServer', x=-68,75, y=13,00, z=196,50], EntityItem['item.tile.torch'/791, l='MpServer', x=-70,72, y=10,00, z=206,13], EntityBat['Bat'/792, l='MpServer', x=-69,86, y=11,01, z=198,04], EntityWitch['Witch'/793, l='MpServer', x=-72,50, y=28,00, z=193,50], EntityBat['Bat'/794, l='MpServer', x=-75,25, y=18,14, z=197,75], EntityCreeper['Creeper'/795, l='MpServer', x=-69,50, y=41,00, z=205,50], EntityCreeper['Creeper'/796, l='MpServer', x=-72,50, y=43,00, z=205,50], EntityCow['Cow'/797, l='MpServer', x=-71,23, y=64,00, z=201,73], EntityItem['item.tile.torch'/798, l='MpServer', x=-70,09, y=10,00, z=211,88], EntityItem['item.item.record'/799, l='MpServer', x=-70,88, y=14,00, z=222,88], EntityCreeper['Creeper'/800, l='MpServer', x=-73,94, y=40,14, z=215,69], EntityItem['item.tile.torch'/801, l='MpServer', x=-76,38, y=10,00, z=225,06], EntityItem['item.item.ingotIron'/802, l='MpServer', x=-70,88, y=10,00, z=224,53], EntityItem['item.item.bucket'/803, l='MpServer', x=-70,88, y=10,00, z=224,25], EntityItem['item.item.nameTag'/804, l='MpServer', x=-70,19, y=10,00, z=224,13], EntityItem['item.item.horsearmordiamond'/805, l='MpServer', x=-70,13, y=10,00, z=224,53], EntityItem['item.item.wheat'/806, l='MpServer', x=-70,50, y=10,00, z=224,75], EntityItem['item.item.bread'/807, l='MpServer', x=-70,13, y=10,00, z=225,38], EntityItem['item.item.saddle'/808, l='MpServer', x=-70,72, y=10,00, z=225,84], EntityBat['Bat'/809, l='MpServer', x=-66,44, y=48,52, z=230,32], EntitySkeleton['Skeleton'/810, l='MpServer', x=-64,53, y=45,00, z=255,09], EntityCreeper['Creeper'/811, l='MpServer', x=-74,22, y=38,00, z=263,59], EntitySheep['Sheep'/816, l='MpServer', x=-48,53, y=72,00, z=177,31], EntitySheep['Sheep'/817, l='MpServer', x=-58,09, y=69,00, z=182,50], EntitySheep['Sheep'/818, l='MpServer', x=-57,56, y=70,00, z=180,97], EntityChicken['Chicken'/819, l='MpServer', x=-50,22, y=66,00, z=187,50], EntityChicken['Chicken'/820, l='MpServer', x=-59,25, y=67,00, z=185,47], EntityMinecartChest['container.minecart'/821, l='MpServer', x=-49,50, y=10,06, z=200,50], EntityMinecartChest['container.minecart'/822, l='MpServer', x=-49,50, y=10,06, z=210,50], EntityBat['Bat'/823, l='MpServer', x=-56,52, y=10,11, z=219,25], EntityChicken['Chicken'/831, l='MpServer', x=-46,44, y=69,00, z=188,56], EntitySheep['Sheep'/832, l='MpServer', x=-38,97, y=72,00, z=179,00], EntityMinecartChest['container.minecart'/833, l='MpServer', x=-47,50, y=9,06, z=192,50], EntityChicken['Chicken'/834, l='MpServer', x=-40,69, y=71,00, z=193,31], EntityCreeper['Creeper'/835, l='MpServer', x=-41,81, y=21,00, z=260,13], EntityPlayerSP['Autovermietung'/867, l='MpServer', x=-116,64, y=67,00, z=200,55], EntitySkeleton['Skeleton'/615, l='MpServer', x=-196,50, y=24,00, z=138,50], EntityZombie['Zombie'/617, l='MpServer', x=-194,97, y=14,00, z=159,41], EntityPig['Pig'/624, l='MpServer', x=-196,50, y=78,00, z=184,44], EntitySkeleton['Skeleton'/628, l='MpServer', x=-196,75, y=29,00, z=237,81], EntitySkeleton['Skeleton'/629, l='MpServer', x=-197,52, y=22,00, z=256,99], EntityMinecartChest['container.minecart'/638, l='MpServer', x=-191,50, y=12,06, z=126,50], EntityMinecartChest['container.minecart'/655, l='MpServer', x=-179,50, y=25,06, z=133,50], EntityItem['item.tile.rail'/658, l='MpServer', x=-176,88, y=25,00, z=142,66], EntityCreeper['Creeper'/659, l='MpServer', x=-181,50, y=19,00, z=144,50], EntitySkeleton['Skeleton'/661, l='MpServer', x=-179,69, y=25,00, z=191,75], EntityPig['Pig'/662, l='MpServer', x=-187,56, y=68,00, z=189,31], EntityPig['Pig'/663, l='MpServer', x=-187,75, y=78,00, z=181,78], EntityBat['Bat'/664, l='MpServer', x=-180,46, y=26,25, z=198,35], EntityPig['Pig'/665, l='MpServer', x=-187,50, y=66,00, z=194,00], EntityItem['item.item.seeds'/666, l='MpServer', x=-176,13, y=64,00, z=203,59], EntityZombie['Zombie'/667, l='MpServer', x=-183,65, y=17,00, z=226,13], EntityZombie['Zombie'/668, l='MpServer', x=-185,47, y=24,00, z=226,47], EntitySkeleton['Skeleton'/669, l='MpServer', x=-187,03, y=25,00, z=235,50], EntityCreeper['Creeper'/670, l='MpServer', x=-179,31, y=22,00, z=229,61], EntityRabbit['Rabbit'/671, l='MpServer', x=-181,41, y=64,00, z=235,63], EntitySkeleton['Skeleton'/672, l='MpServer', x=-191,50, y=18,00, z=251,50], EntityChicken['Chicken'/700, l='MpServer', x=-162,61, y=64,00, z=125,59], EntityWitch['Witch'/702, l='MpServer', x=-171,50, y=31,00, z=134,50], EntityItem['item.tile.rail'/703, l='MpServer', x=-171,13, y=25,00, z=141,19], EntityPig['Pig'/704, l='MpServer', x=-175,56, y=66,00, z=141,44], EntityChicken['Chicken'/705, l='MpServer', x=-170,34, y=64,00, z=129,53], EntityItem['item.tile.torch'/706, l='MpServer', x=-172,50, y=19,00, z=157,31], EntityItem['item.tile.torch'/707, l='MpServer', x=-171,47, y=19,00, z=158,91], EntitySpider['Spider'/708, l='MpServer', x=-163,69, y=20,00, z=159,28], EntityZombie['Zombie'/709, l='MpServer', x=-166,50, y=17,00, z=147,50], EntityPig['Pig'/710, l='MpServer', x=-163,25, y=64,00, z=147,91], EntityChicken['Chicken'/711, l='MpServer', x=-172,53, y=72,00, z=158,56], EntityPig['Pig'/712, l='MpServer', x=-163,00, y=64,00, z=142,14], EntityChicken['Chicken'/713, l='MpServer', x=-168,81, y=66,00, z=161,31], EntityChicken['Chicken'/714, l='MpServer', x=-166,81, y=64,00, z=160,50], EntityChicken['Chicken'/715, l='MpServer', x=-169,44, y=67,00, z=160,91], EntityZombie['Zombie'/716, l='MpServer', x=-166,75, y=44,00, z=177,53], EntityBat['Bat'/717, l='MpServer', x=-163,34, y=46,07, z=176,85], EntityItem['item.item.seeds'/718, l='MpServer', x=-167,25, y=63,00, z=195,78], EntityItem['item.item.seeds'/719, l='MpServer', x=-169,91, y=63,00, z=199,50], EntitySpider['Spider'/720, l='MpServer', x=-169,16, y=37,00, z=232,72], EntityRabbit['Rabbit'/721, l='MpServer', x=-174,16, y=66,00, z=234,91], EntityRabbit['Rabbit'/722, l='MpServer', x=-167,34, y=68,00, z=233,34], EntityBat['Bat'/723, l='MpServer', x=-175,25, y=28,10, z=255,75], EntityCreeper['Creeper'/724, l='MpServer', x=-170,17, y=33,00, z=243,40], EntityZombie['Zombie'/725, l='MpServer', x=-167,50, y=21,00, z=257,50], EntityChicken['Chicken'/736, l='MpServer', x=-156,50, y=66,00, z=127,50], EntityItem['item.tile.torch'/737, l='MpServer', x=-158,28, y=20,00, z=159,69], EntityPig['Pig'/738, l='MpServer', x=-152,71, y=65,06, z=148,42], EntityCreeper['Creeper'/739, l='MpServer', x=-156,59, y=55,00, z=232,97], EntityItem['item.item.seeds'/740, l='MpServer', x=-157,25, y=67,00, z=224,00], EntityItem['item.item.seeds'/741, l='MpServer', x=-154,44, y=64,00, z=233,38], EntityBat['Bat'/742, l='MpServer', x=-155,04, y=19,51, z=242,65], EntitySkeleton['Skeleton'/746, l='MpServer', x=-115,50, y=48,00, z=124,88], EntityChicken['Chicken'/748, l='MpServer', x=-116,50, y=62,59, z=133,03], EntityChicken['Chicken'/749, l='MpServer', x=-116,53, y=62,72, z=132,31], EntityChicken['Chicken'/750, l='MpServer', x=-118,38, y=63,00, z=129,38], EntityCreeper['Creeper'/751, l='MpServer', x=-121,50, y=16,00, z=199,50], EntitySpider['Spider'/752, l='MpServer', x=-120,21, y=22,00, z=219,33], EntityItem['item.item.seeds'/753, l='MpServer', x=-121,63, y=66,00, z=216,09], EntityBat['Bat'/754, l='MpServer', x=-130,83, y=33,00, z=228,40], EntityEnderman['Enderman'/757, l='MpServer', x=-105,50, y=16,00, z=187,50], EntityZombie['Zombie'/758, l='MpServer', x=-98,66, y=52,00, z=190,78], EntityCreeper['Creeper'/759, l='MpServer', x=-102,50, y=14,00, z=238,50], EntityBat['Bat'/760, l='MpServer', x=-107,75, y=30,10, z=258,75], EntityZombie['Zombie'/761, l='MpServer', x=-110,50, y=36,00, z=261,50], EntityZombie['Zombie'/762, l='MpServer', x=-99,31, y=46,00, z=263,31], EntitySkeleton['Skeleton'/763, l='MpServer', x=-105,46, y=36,00, z=268,51], EntityBat['Bat'/764, l='MpServer', x=-98,53, y=46,14, z=265,64], EntityBat['Bat'/765, l='MpServer', x=-112,54, y=42,84, z=270,23]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:383)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2645)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:401)
+	at net.minecraft.client.main.Main.main(Main.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_251, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 385266488 bytes (367 MB) / 1561329664 bytes (1489 MB) up to 3780640768 bytes (3605 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.19 Powered by Forge 11.15.1.1855 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8.9-11.15.1.1855.jar) 
+	UCHIJAAAA	Forge{11.15.1.1855} [Minecraft Forge] (forgeSrc-1.8.9-11.15.1.1855.jar) 
+	UCHIJAAAA	labymod{3.6.6} [LabyMod] (lm_api_mc1.8.9.jar) 
+	Loaded coremods (and transformers): 
+LabyModCoreMod (lm_api_mc1.8.9.jar)
+  net.labymod.core.asm.LabyModTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 443.18' Renderer: 'GeForce MX250/PCIe/SSE2'
+	Launched Version: 1.8.9
+	LWJGL: 2.9.4
+	OpenGL: GeForce MX250/PCIe/SSE2 GL version 4.6.0 NVIDIA 443.18, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+[15:55:16] [Client thread/INFO]: #@!@# Game crashed! Crash report saved to: #@!@# D:\LabyMod Addon\run\.\crash-reports\crash-2020-10-15_15.55.16-client.txt
+[15:55:16] [Thread-17/INFO]: [Debug] [UPDATER] Executing LabyMod Updater
+[15:55:16] [Helper#1/INFO]: [Debug] [LABYMOD_CHAT] Save chat log file for 8865cbc0-063c-4a7c-ae63-c27af886224c
